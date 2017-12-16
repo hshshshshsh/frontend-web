@@ -1,6 +1,8 @@
-// 1부터 100까지 출력하는 프로그램 작성
+// 1부터 100까지 출력하는 프로그램을 작성
 
-for(var i=1; i<=100; i++)
-{
+var str = '';
+for(var i=1; i<=100; i++){
+  // str += i + ', ';
   console.log(i);
 }
+// console.log(str)
